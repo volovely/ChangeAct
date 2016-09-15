@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".UI.MainActivity">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Second activity"
+        android:id="@+id/secAct"
+        android:onClick="secActClick" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/mValue"
+        android:layout_below="@+id/secAct"
+        android:layout_alignParentStart="true"
+        android:layout_alignEnd="@+id/secAct" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="message"
+        android:id="@+id/msgBox"
+        android:layout_below="@+id/mValue"
+        android:layout_alignParentStart="true"
+        android:layout_alignEnd="@+id/mValue"
+        android:onClick="msgBoxBtnClick" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Notification"
+        android:id="@+id/ntBtn"
+        android:layout_below="@+id/msgBox"
+        android:layout_alignParentStart="true"
+        android:onClick="notifBtnClick" />
+
+</RelativeLayout>
