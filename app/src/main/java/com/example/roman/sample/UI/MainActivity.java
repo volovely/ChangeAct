@@ -57,7 +57,7 @@ public class MainActivity extends AppCompatActivity {
                 .setSmallIcon(R.mipmap.ic_launcher)
                 .setContentIntent(pendingIntent)
                 .setContentTitle("Change Activity?")
-                .setContentText("Go?")
+                .setContentText("Go to second activity")
                 .build();
         notificationManager.notify(0, notification);
 
