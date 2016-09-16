@@ -60,7 +60,6 @@ public class MainActivity extends AppCompatActivity {
                 .setContentText("Go to second activity")
                 .build();
         notificationManager.notify(0, notification);
-
     }
 
 }
